@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizny.CameraControle">
+   <children>
+      <ImageView fx:id="img" fitHeight="967.0" fitWidth="1920.0" layoutX="31.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="texto" layoutX="855.0" layoutY="782.0" text="Parabéns" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS" size="42.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.23" radius="9.817499999999999" spread="0.14" width="18.04" />
+         </effect>
+      </Label>
+      <Button layoutX="891.0" layoutY="995.0" mnemonicParsing="false" onAction="#Inicio" onMouseClicked="#Inicio" prefHeight="60.0" prefWidth="138.0" style="-fx-background-radius: 60; -fx-background-color: red;" text="Inicio" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

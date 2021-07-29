@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizny.PrincipalControler">
+   <children>
+      <Label layoutX="701.0" layoutY="47.0" text="Welcome to New York Quiz" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS" size="42.0" />
+         </font>
+         <rotationAxis>
+            <Point3D x="5.0" y="7.0" z="1.0" />
+         </rotationAxis>
+         <effect>
+            <DropShadow color="WHITE" height="45.88" radius="20.884999999999998" spread="0.55" width="39.66" />
+         </effect>
+      </Label>
+      <ImageView fx:id="balao" fitHeight="40.0" fitWidth="34.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/balao.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="418.0" fitWidth="531.0" layoutX="762.0" layoutY="198.0" onMouseClicked="#abrirPergunta" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n1" fitHeight="40.0" fitWidth="57.0" layoutX="1793.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n3" fitHeight="40.0" fitWidth="57.0" layoutX="1710.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n2" fitHeight="40.0" fitWidth="57.0" layoutX="1526.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n5" fitHeight="40.0" fitWidth="57.0" layoutX="1225.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n6" fitHeight="40.0" fitWidth="57.0" layoutX="487.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n7" fitHeight="40.0" fitWidth="57.0" layoutX="525.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n8" fitHeight="40.0" fitWidth="57.0" layoutX="209.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n9" fitHeight="40.0" fitWidth="57.0" layoutX="105.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="n4" fitHeight="40.0" fitWidth="57.0" layoutX="1040.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/nuvem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutX="832.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutX="971.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

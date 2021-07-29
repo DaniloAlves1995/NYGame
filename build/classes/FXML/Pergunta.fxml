@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizny.PerguntaControler">
+   <children>
+      <Label fx:id="pergunta" alignment="CENTER" layoutX="6.0" layoutY="33.0" prefHeight="57.0" prefWidth="1911.0" text="Pergunta" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS" size="41.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ccd700" />
+         </effect>
+      </Label>
+      <Button fx:id="yes" layoutX="462.0" layoutY="320.0" mnemonicParsing="false" onMousePressed="#pressionarY" onMouseReleased="#soltarY" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 50%; -fx-background-color: green;" textFill="WHITE">
+         <effect>
+            <Lighting specularConstant="0.54" specularExponent="25.85" surfaceScale="1.26">
+               <bumpInput>
+                  <Shadow color="#0d0d0d" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Comic Sans MS" size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="no" layoutX="1223.0" layoutY="320.0" mnemonicParsing="false" onMousePressed="#pressionarN" onMouseReleased="#soltarN" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 50%; -fx-background-color: FF0000;" textFill="WHITE">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Comic Sans MS" size="34.0" />
+         </font>
+      </Button>
+      <Label layoutX="523.0" layoutY="395.0" onMousePressed="#pressionarY" onMouseReleased="#soltarY" text="YES!" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="1291.0" layoutY="395.0" onMousePressed="#pressionarN" onMouseReleased="#soltarN" text="NO!" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutX="849.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="1283.0" layoutX="971.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/ny3.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="msgcorreto" layoutX="871.0" layoutY="387.0" prefHeight="69.0" prefWidth="280.0" text="Correto!" textFill="#00ed18">
+         <effect>
+            <Reflection bottomOpacity="0.06" fraction="0.54" topOpacity="0.53" />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="49.0" />
+         </font>
+      </Label>
+      <Label fx:id="msgnota" layoutX="131.0" layoutY="187.0" rotate="-36.9" text="congratulations!" textFill="#22a14e">
+         <effect>
+            <GaussianBlur radius="63.0" />
+         </effect>
+         <font>
+            <Font name="Bradley Hand ITC" size="52.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btn_proxima" fitHeight="110.0" fitWidth="105.0" layoutX="1777.0" layoutY="369.0" onMouseClicked="#proxima" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/next3.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
